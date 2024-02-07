@@ -1,0 +1,11 @@
+.country-info {
+    padding: 70px 0;
+}
+.country-info img{
+    height: 480px;
+    margin: auto;
+}
+.country-info img:hover{
+    height: 480px;
+    margin: auto;
+}

@@ -1,0 +1,21 @@
+.difference-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    padding: 200px 0;
+    font-family: monospace;
+}
+.difference-section h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.difference-section p{
+    font-size: 20px;
+}
+.difference-section span{
+    font-weight: bold;
+    color:#FF6612;
+}

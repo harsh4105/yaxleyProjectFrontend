@@ -1,0 +1,15 @@
+
+.australia-section-for-services{
+    background: #FFFBE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.australia-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.australia-right-section img{
+    height: 400px;
+}

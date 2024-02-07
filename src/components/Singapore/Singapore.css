@@ -1,0 +1,15 @@
+
+.Singapore-section-for-services{
+    background: #FEF5EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.Singapore-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.Singapore-right-section img{
+    height: 400px;
+}

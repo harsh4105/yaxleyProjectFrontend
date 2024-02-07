@@ -1,0 +1,14 @@
+
+.Ireland-section-for-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.Ireland-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.Ireland-right-section img{
+    height: 400px;
+}

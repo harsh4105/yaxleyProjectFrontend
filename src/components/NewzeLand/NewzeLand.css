@@ -1,0 +1,14 @@
+
+.newzeland-section-for-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.newzeland-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.newzeland-right-section img{
+    height: 400px;
+}

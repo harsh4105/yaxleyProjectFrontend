@@ -1,0 +1,50 @@
+.branch-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.branch-location-heading img{
+    height: 100px;
+}
+
+.branch-location-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-for-country{
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.branch-search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.branch-search-bar input {
+   width: 70%;
+   border: none;
+   padding: 7px 20px;
+   border-radius: 20px;
+   margin-left: 60px;
+}
+
+.branch-search-bar button{
+   border: none;
+   border-radius: 20px;
+   padding: 4px 15px;
+   /* position: relative; */
+   /* right: 140px; */
+   background-color: #FF6612;
+   color:  white;
+}

@@ -1,0 +1,15 @@
+
+.united-section-for-services{
+    background: #F0FFE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.united-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.united-right-section img{
+    height: 400px;
+}

@@ -1,0 +1,14 @@
+
+.canada-section-for-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.canada-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.canada-right-section img{
+    height: 400px;
+}

@@ -1,0 +1,44 @@
+.sevice-section-main{
+    background-color: #FFECEC;
+    padding: 40px 0;
+}
+.sevice-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service-heading h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.other-service{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.counselling-section{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.counselling-section img{
+    width: 310px;
+}
+
+.other-service-section{
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.other-service-section img{
+    width: 300px;
+}

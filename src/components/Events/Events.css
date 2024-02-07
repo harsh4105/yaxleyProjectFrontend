@@ -1,0 +1,41 @@
+.Events-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.Events-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:10px ;
+}
+.Events-section p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.event-blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.event-blk img{
+    height: 250px;
+}
+.event-blk img:hover{
+    height: 246px;
+}
+.event-blk button{
+    padding: 5px 10px;
+    background-color:#FF6612 ;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Gill Sans';
+    position: relative;
+    bottom: 90px;
+    left: 250px;
+}
+.event-blk button:hover{
+    background-color:#f4874c ;   
+}

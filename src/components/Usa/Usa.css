@@ -1,0 +1,14 @@
+
+.usa-section-for-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.usa-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.usa-right-section img{
+    height: 400px;
+}

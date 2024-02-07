@@ -1,0 +1,15 @@
+
+.France-section-for-services{
+    background: #FFECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.France-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.France-right-section img{
+    height: 400px;
+}

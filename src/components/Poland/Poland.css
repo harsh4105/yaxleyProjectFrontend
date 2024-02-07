@@ -1,0 +1,14 @@
+
+.Poland-section-for-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.Poland-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.Poland-right-section img{
+    height: 400px;
+}

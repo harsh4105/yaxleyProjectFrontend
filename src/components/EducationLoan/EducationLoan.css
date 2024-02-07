@@ -1,0 +1,14 @@
+
+.educationloan-section-for-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.educationloan-left-section img{
+    height: 400px;
+    /* margin-right: 50px; */
+}
+.educationloan-right-section img{
+    height: 400px;
+}

@@ -1,0 +1,47 @@
+.search-course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #FF6612, #FF9212);
+    padding: 100px;
+}
+.search-course h1{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.search-course p{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.course-search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.course-search-bar input {
+   width: 70%;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 20px;
+   margin-left: 60px;
+}
+
+.course-search-bar button{
+   border: none;
+   border-radius: 20px;
+   padding: 4px 15px;
+   position: relative;
+   right: 110px;
+   background-color: #FF6612;
+   color:  white;
+}
+.course-search-bar button:hover{
+   background-color: hsl(21, 87%, 73%);
+}

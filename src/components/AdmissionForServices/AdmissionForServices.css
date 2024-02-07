@@ -1,0 +1,15 @@
+
+.admission-section-for-services{
+    background-color: #F0FFE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.admission-left-section img{
+    height: 400px;
+    margin-right: 50px;
+}
+.admission-right-section img{
+    height: 400px;
+}

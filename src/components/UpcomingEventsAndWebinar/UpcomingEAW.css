@@ -1,0 +1,36 @@
+.upcoming-for-event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.upcoming-section-headings img{
+    height: 100px;
+    margin: 20px;
+}
+.upcoming-section-context img{
+    margin: 20px;
+    height: 350px;
+}
+
+.upcoming-section-context{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+.upcoming-section-context button{
+    border: none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    position: relative;
+    bottom: 90px;
+    right: 50px;
+    background-color: #FF6612;
+    color:  white;
+}
+.upcoming-section-context button:hover{
+    background-color: hsl(21, 93%, 67%);
+
+ }

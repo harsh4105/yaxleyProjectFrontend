@@ -1,0 +1,29 @@
+.hero-event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 250px 0;
+    margin: auto;
+    background: url('../images/EventHeroImg.png');
+    background-size: cover;
+}
+.hero-event p{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.hero-event span{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+
+

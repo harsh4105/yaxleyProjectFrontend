@@ -11,9 +11,10 @@ const OurBranchLocations = () => {
             </div>
 
             <div className="branch-location-inputs">
-                <input type="text" placeholder="India" className="input-for-country" />
+
                 <div className='branch-search-bar'>
-                    <input
+                    <input type="text" placeholder="India" className="input-for-country" />
+                    <input className="input-for-city"
                         type="text"
                         placeholder="Coimbatore"
                     />
@@ -27,11 +28,11 @@ const OurBranchLocations = () => {
                 </div>
                 <div className="branch-location-map-right">
                     <h2>YaxelYGlobal Coimbatore</h2>
-                    <h2>ADDRESS</h2>
+                    <p className="address-text">ADDRESS</p>
                     <h3>Mayura Complex, Mettupalayam Rd, Gounder Mills, Coimbatore,Tamil Nadu, India - 641029</h3>
                     <h4>Email - conatct.coimbatore@yaxelglobal</h4>
                     <h4>Tel +91 89565 95945</h4>
-                    <button>Locate on Map <img src={arroworange} alt="arrow-img" /> </button>
+                    <button>Locate on Map <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>

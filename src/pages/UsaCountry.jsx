@@ -4,6 +4,7 @@ import WhyStudyInUsa from '../components/WhyStudyInUsa/WhyStudyInUsa';
 import AdvantagesOfUsaEducation from '../components/AdvantagesOfUsaEducation/AdvantagesOfUsaEducation';
 import GlobalRecognizationOfUsaEducation from '../components/GlobalRecognizationOfUsaEducation/GlobalRecognizationOfUsaEducation';
 import PopularUniversities from '../components/PopularUniversities/PopularUniversities';
+import ImportantLinks from '../components/ImportantLinks/ImportantLinks';
 
 const USAPage = () => {
   return (
@@ -13,6 +14,7 @@ const USAPage = () => {
       <AdvantagesOfUsaEducation/>
       <GlobalRecognizationOfUsaEducation/>
       <PopularUniversities/>
+      <ImportantLinks/>
     </div>
   );
 };

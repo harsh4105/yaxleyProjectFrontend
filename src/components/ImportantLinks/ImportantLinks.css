@@ -1,0 +1,38 @@
+.ImportantLinks-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImportantLinks-Heading img{
+    height: 60px;
+}
+
+.ImportantLinks-contain-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ImportantLinks-contain-section div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FEF5EB;
+    width: 70% ;
+    padding:  5px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.ImportantLinks-contain-section div i{
+    color: #FF6612;
+}
+.ImportantLinks-contain-section div:hover{
+    color: #FF6612;
+}
+.ImportantLinks-section  span{
+    color: #FF6612;
+}

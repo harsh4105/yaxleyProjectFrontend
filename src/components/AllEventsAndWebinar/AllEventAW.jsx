@@ -1,7 +1,8 @@
 import React from "react";
 import './AllEventAW.css';
 import UpcomingEAW from '../images/UpcomingEAW.png';
-import AllEventsImg from '../images/AllEventsImg.png'
+import UpcomingEventsAndWebinarImg from '../images/UpcomingEventsAndWebinarImg.png';
+
 const AllEventAW = () => {
     return (
         <div className="upcoming-webinar-for-event">
@@ -20,26 +21,16 @@ const AllEventAW = () => {
             </div>
             <div className="upcoming-events-blocks-section">
                 <div className="upcoming-events-block">
-                    <img src={AllEventsImg} alt="Events-img" />
-                    <button>See Full Events</button>
-                    <button>Register Now</button>
+                    <img src={UpcomingEventsAndWebinarImg} alt="Events-img" />
                 </div>
                 <div className="upcoming-events-block">
-                    <img src={AllEventsImg} alt="Events-img" />
-                    <button>See Full Events</button>
-                    <button>Register Now</button>
+                    <img src={UpcomingEventsAndWebinarImg} alt="Events-img" />
                 </div>
                 <div className="upcoming-events-block">
-                    <img src={AllEventsImg} alt="Events-img" />
-                    <div className="btns">
-                        <button>See Full Events</button>
-                        <button>Register Now</button>
-                    </div>
+                    <img src={UpcomingEventsAndWebinarImg} alt="Events-img" />
                 </div>
                 <div className="upcoming-events-block">
-                    <img src={AllEventsImg} alt="Events-img" />
-                    <button>See Full Events</button>
-                    <button>Register Now</button>
+                    <img src={UpcomingEventsAndWebinarImg} alt="Events-img" />
                 </div>
             </div>
         </div>

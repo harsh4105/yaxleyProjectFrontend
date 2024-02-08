@@ -1,0 +1,23 @@
+.Popular-Universities-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFECEC;
+    padding: 50px 0;
+}
+.Popular-Universities-Heading img{
+    height: 150px;
+}
+.Popular-Universities-contain-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Popular-Universities-contain-section img{
+    height: 380px;
+}
+.Popular-Universities-section p{
+    color: #FF6612;
+    font-weight: bold;
+}

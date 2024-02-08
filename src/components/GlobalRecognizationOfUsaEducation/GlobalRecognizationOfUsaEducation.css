@@ -1,0 +1,26 @@
+.Global-Recognization-Of-Usa-Education-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 50px 0 0;
+}
+
+.Global-Recognization-Of-Usa-Education-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Global-Recognization-Of-Usa-Education-left img{
+    height: 130px;
+}
+.GROUEL-heading img{
+    height: 130px;
+}
+
+
+.Global-Recognization-Of-Usa-Education-right img{
+    height: 700px;
+    margin-top: 200px;
+}

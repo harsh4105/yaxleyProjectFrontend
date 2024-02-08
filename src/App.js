@@ -8,6 +8,7 @@ import CountryInfo from "./pages/CountryInfo";
 import ContactUs from "./pages/ContactUs";
 import Events from "./pages/Events";
 import USAPage from "./pages/UsaCountry";
+import TestPrep from './pages/TestPrep';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
          <Route path="/services" element={<Services />} />
          <Route path="/countryInfo" element={<CountryInfo />} />
          <Route path="/contactus" element={<ContactUs />} />
+         <Route path="/testprep" element={<TestPrep />} />
          <Route path="/events" element={<Events />} />
          <Route path="/usacountry" element={<USAPage />} />
       </Routes>

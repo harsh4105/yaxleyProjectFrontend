@@ -1,0 +1,32 @@
+.HeroForTestPrep-section{
+    background: url('../images/TestPrepHeroImg.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroForTestPrep-left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.HeroForTestPrep-left-side p{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.HeroForTestPrep-left-side span{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.HeroForTestPrep-left-side button{
+    background-color: #FF6612;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}

@@ -1,0 +1,46 @@
+.why-study-in-usa-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.why-study-in-usa-heading-section img{
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+.why-study-in-usa-contain-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.why-study-in-usa-contain-blocks-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.why-study-in-usa-contain-block{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    border:5px solid hsl(210, 10%, 96%);
+    border-radius: 20px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.why-study-in-usa-contain-block:hover{
+    background: linear-gradient(135.08deg, #FF6612 24.97%, #FF9212 86.27%);
+   color: white;
+}
+
+.why-study-in-usa-contain-block h1{
+    font-size: medium;
+    margin-bottom: 50px;
+}

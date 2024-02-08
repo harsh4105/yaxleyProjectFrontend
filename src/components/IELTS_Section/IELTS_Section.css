@@ -1,0 +1,21 @@
+.IELTS-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.IELTS-Section-heading img{
+    height: 130px;
+}
+
+.IELTS-Section-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IELTS-Section-contain img{
+    height: 250px;
+}

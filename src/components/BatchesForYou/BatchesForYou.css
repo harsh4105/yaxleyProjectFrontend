@@ -1,0 +1,26 @@
+.BatchesForYou-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.BatchesForYou-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BatchesForYou-heading img{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.BatchesForYou-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BatchesForYou-items img{
+    width: 70%;
+}

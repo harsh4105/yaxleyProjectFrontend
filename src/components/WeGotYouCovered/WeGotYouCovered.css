@@ -1,0 +1,28 @@
+.WeGotYouCovered-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.WeGotYouCovered-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WeGotYouCovered-heading img{
+    width: 50%;
+}
+
+.WeGotYouCovered-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.WeGotYouCovered-items img{
+    width: 50%;
+    margin: 30px 0;
+    margin-left: 100px;
+}

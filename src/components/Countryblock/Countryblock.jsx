@@ -2,10 +2,6 @@ import React from "react";
 import './Countryblock.css';
 
 const Countryblock=(props)=>{
-    // const direction=querySelector('.Countryblock-section-for-services');
-    // if(props.class==='right'){
-    //     direction.classList.add("right");
-    // }
     return(
         <div  className={`Countryblock-section-for-services ${props.class}`} style={{backgroundColor: `${props.background}`,}}>
             <div className="Countryblock-left-section">

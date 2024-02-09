@@ -5,8 +5,8 @@ import IELTS_Modules from "../components/IELTS_Modules/IELTS_Modules";
 import WeGotYouCovered from "../components/WeGotYouCovered/WeGotYouCovered";
 import BatchesForYou from "../components/BatchesForYou/BactchesForYou";
 import OurExpertsInYourSupports from "../components/OurExpertsInYourSupports/OurExpertsInYourSupports";
-import Testimonials from  "../components/Testimonial/Testimonials"
 import Faqs from '../components/Faqs/Faqs'
+import Carousel from "../components/Carousel/Carousel";
 const TestPrep=()=>{
    return(
     <div>
@@ -16,7 +16,7 @@ const TestPrep=()=>{
         <WeGotYouCovered/>
         <BatchesForYou/>
         <OurExpertsInYourSupports/>
-        <Testimonials/>
+        <Carousel/>
         <Faqs/>
     </div>
    )

@@ -1,70 +1,55 @@
-.BatchesForYou-section {
+.testimonials-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    /* padding: 40px 0; */
-}
-
-.BatchesForYou-heading {
-    display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
-.BatchesForYou-heading img {
-    width: 50%;
-    margin: 20px 0;
-}
-
-.BatchesForYou-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.BatchesForYou-items img {
-    width: 70%;
-}
-
-
-/* ************** */
-
-.BatchesForYou-carousel-container {
+.carousel-container {
     position: relative;
     width: 90%;
     margin: auto;
     overflow: hidden;
+    padding: 50px 0;
 }
 
-.BatchesForYou-carousel {
+.carousel {
     display: flex;
     transition: transform 0.5s ease;
 }
 
-.BatchesForYou-slides {
+.slides {
     display: flex;
     width: 300%;
 }
 
-.BatchesForYou-slide {
+.slide {
     flex: 1 0 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.BatchesForYou-slide img {
-    width: 90%;
-    padding: 30px;
+.slide div {
+    text-align: left;
+    padding: 50px 50px;
+    background: linear-gradient(45deg, #FF6612, #FF9212);
+    width: 30%;
+    color: white;
+    border-radius: 20px;
+    /* margin: 0 10px; */
 }
 
+.slide div h1,p{
+    margin: 10px 0;
+}
 .prev-btn,
 .next-btn {
     position: absolute;
-    top: 60%;
+    top: 55%;
     transform: translateY(-50%);
-    background-color: #FF6612;
+    background-color:#FF6612 ;
     color: white;
     border: none;
     padding: 15px 20px;
@@ -97,7 +82,5 @@
 }
 
 .dot.active {
-    background-color: #FF6612;
-    width: 50px;
-    border-radius: 20px;
+    background-color: #717171;
 }

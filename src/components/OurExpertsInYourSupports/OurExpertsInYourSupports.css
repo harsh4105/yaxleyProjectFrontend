@@ -1,4 +1,4 @@
-.OurExpertsInYourSupports-section{
+.OurExpertsInYourSupports-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,29 +6,104 @@
     padding: 60px 0;
 }
 
-.OurExpertsInYourSupports-heading{
+.OurExpertsInYourSupports-heading {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.OurExpertsInYourSupports-heading img{
+.OurExpertsInYourSupports-heading img {
     width: 60%;
 }
 
-.OurExpertsInYourSupports-items{
+.OurExpertsInYourSupports-items {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 30px 0;
 }
 
-.OurExpertsInYourSupports-items img{
+.OurExpertsInYourSupports-items img {
     width: 20%;
 }
 
-.scroll{
+
+
+.OurExpertsInYourSupports-carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.OurExpertsInYourSupports-carousel {
     display: flex;
-    justify-content: center;
-    align-items: center;   
+    transition: transform 0.5s ease;
+}
+
+.OurExpertsInYourSupports-slides {
+    display: flex;
+    width: 300%;
+}
+
+.OurExpertsInYourSupports-slide {
+    flex: 1 0 100%;
+}
+
+.OurExpertsInYourSupports-slide h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50%;
+}
+
+.OurExpertsInYourSupports-prev-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FF6612;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+}
+.OurExpertsInYourSupports-next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FF6612;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+}
+
+.OurExpertsInYourSupports-prev-btn {
+    left: 0;
+}
+
+.OurExpertsInYourSupports-next-btn {
+    right: 0;
+}
+
+.dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #FF6612;
 }

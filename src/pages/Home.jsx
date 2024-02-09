@@ -5,8 +5,8 @@ import Service_for_Home from '../components/Service_for_home/Service_for_home';
 import CountryInfo from '../components/CountryInfo/Country';
 import CourseSearch from '../components/CourseSearch/CourseSearch';
 import Events from '../components/Events/Events';
-import Testimonils from '../components/Testimonial/Testimonials';
 import Faqs from '../components/Faqs/Faqs';
+import Carousel from '../components/Carousel/Carousel';
 
 const HomePage = () => {
   return (
@@ -17,7 +17,7 @@ const HomePage = () => {
         <CountryInfo/>
         <CourseSearch/>
         <Events/>
-        <Testimonils/>
+        <Carousel/>
         <Faqs/>
     </div>
   );

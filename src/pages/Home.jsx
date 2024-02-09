@@ -7,6 +7,8 @@ import CourseSearch from '../components/CourseSearch/CourseSearch';
 import Events from '../components/Events/Events';
 import Faqs from '../components/Faqs/Faqs';
 import Carousel from '../components/Carousel/Carousel';
+import FaqsAccordion from '../components/FaqsAccordion/FaqsAccordion';
+
 
 const HomePage = () => {
   return (
@@ -19,6 +21,7 @@ const HomePage = () => {
         <Events/>
         <Carousel/>
         <Faqs/>
+        {/* <FaqsAccordion/> */}
     </div>
   );
 };

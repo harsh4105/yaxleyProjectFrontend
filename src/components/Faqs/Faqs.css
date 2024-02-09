@@ -1,5 +1,6 @@
 .faqs-section{
     padding: 50px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +10,7 @@
    font-weight: bold;
    font-size: 40px;
 }
+
 .faqs-section p{
    font-weight: bold;
 }

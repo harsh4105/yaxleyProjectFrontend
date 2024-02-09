@@ -1,5 +1,6 @@
 import React from "react";
 import './Faqs.css';
+import FaqsAccordion from "../FaqsAccordion/FaqsAccordion";
 const Faqs = () => {
     return (
         <div className="faqs-section">
@@ -26,7 +27,7 @@ const Faqs = () => {
                     </ul>
                 </div>
                 <div className="faqs-right">
-                    <div className="faqs-choice-special">
+                    {/* <div className="faqs-choice-special">
                         <h3>How do I register? <button>X</button></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                     </div>
@@ -45,7 +46,8 @@ const Faqs = () => {
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing?</h3>
                         <button>+</button>
                     </div>
-                    <hr />
+                    <hr /> */}
+                    <FaqsAccordion/>
                 </div>
             </div>
         </div>

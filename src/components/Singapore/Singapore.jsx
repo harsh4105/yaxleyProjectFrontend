@@ -1,19 +1,13 @@
 import React from "react";
 import './Singapore.css';
 import SingaporeImg from '../images/SingaporeImg.png';
-import Singaporetext from '../images/Singaporetext.png';
+import BraunVector from '../images/BraunVector.png';
+import Countryblock from "../Countryblock/Countryblock";
 
 
 const Singapore=()=>{
     return(
-        <div className="Singapore-section-for-services">
-            <div className="Singapore-left-section">
-                <img src={SingaporeImg} alt="Singapore-and-offer-img" />
-            </div>
-            <div className="Singapore-right-section">
-                <img src={Singaporetext} alt="Singapore-people-img" />
-            </div>
-        </div>
+        <Countryblock image={SingaporeImg} name='Singapore' bullets={BraunVector} class={'left'} background='#FEF5EB'/>
     )
 }
 

@@ -1,0 +1,46 @@
+.Countryblock-section-for-services{
+    background: #FFFBE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+.right{
+}
+.left{
+    flex-direction: row-reverse;
+}
+.Countryblock-right-section img{
+    height: 400px;
+}
+
+.Countryblock-left-section{
+    width: 50%;
+    margin: 0 30px;
+}
+.Countryblock-left-section h1{
+    font-size: 50px;
+    margin: 20px 0;
+}
+.Countryblock-left-section h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.Countryblock-left-section p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    margin: 20px 0;
+}
+.Countryblock-left-section span{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    margin: 20px 0;
+}
+.Countryblock-left-section h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}

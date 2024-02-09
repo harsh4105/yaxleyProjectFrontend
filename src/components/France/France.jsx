@@ -1,19 +1,12 @@
 import React from "react";
 import './France.css';
 import FranceImg from '../images/FranceImg.png';
-import Francetext from '../images/Francetext.png';
-
+import Countryblock from "../Countryblock/Countryblock";
+import RedVector from '../images/RedVector.png';
 
 const France=()=>{
     return(
-        <div className="France-section-for-services">
-            <div className="France-left-section">
-                <img src={FranceImg} alt="France-and-offer-img" />
-            </div>
-            <div className="Singapore-right-section">
-                <img src={Francetext} alt="France-people-img" />
-            </div>
-        </div>
+        <Countryblock image={FranceImg} name='France' bullets={RedVector} class={'left'} background='#FFECEC'/>
     )
 }
 

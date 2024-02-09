@@ -1,19 +1,13 @@
 import React from "react";
 import './NewzeLand.css';
 import NewzelandImg from '../images/NewzelandImg.png';
-import Newzelandtext from '../images/Newzelandtext.png';
+import BlueVector from '../images/BlueVector.png';
+import Countryblock from "../Countryblock/Countryblock";
 
 
 const NewzeLand=()=>{
     return(
-        <div className="newzeland-section-for-services">
-            <div className="newzeland-left-section">
-                <img src={Newzelandtext} alt="newzeland-and-offer-img" />
-            </div>
-            <div className="newzeland-right-section">
-                <img src={NewzelandImg} alt="newzeland-people-img" />
-            </div>
-        </div>
+        <Countryblock image={NewzelandImg} name='New Zeland' bullets={BlueVector} class={'right'} background='white'/>
     )
 }
 

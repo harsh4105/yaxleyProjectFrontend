@@ -1,15 +1,20 @@
 
 import React from 'react';
 import './Navbar.css'
-import { Link } from 'react-router-dom'; 
-
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <nav className="navbar">
       <div className="navbar-logo">
         <img src="https://c.animaapp.com/0ReT5wt9/img/group-4034-1.png" alt="Logo" />
       </div>
-      <ul className="navbar-links">
+      <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <li className="nav-item">
           <Link to="/services" className="nav-link">Services</Link>
         </li>
@@ -32,6 +37,9 @@ const Navbar = () => {
           <Link to="/contactus" className="nav-link btn-type">Contact Us</Link>
         </li>
       </ul>
+      <button className="navbar-toggle" onClick={toggleMenu}>
+        <span className="navbar-toggle-icon">&#9776;</span>
+      </button>
     </nav>
   );
 };

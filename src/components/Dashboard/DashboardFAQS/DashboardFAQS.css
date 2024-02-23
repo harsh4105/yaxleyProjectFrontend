@@ -1,0 +1,84 @@
+.Dashboard-Faqs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.Dashboard-home-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Dashboard-home-faqs-addQuetion{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.Dashboard-home-faqs-addQuetion span{
+  color:#FF6612;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.dropdown-container {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.dropdown-container select {
+  padding: 13px 20px;
+  font-size: 16px;
+  border-radius:30px;
+  border: 2px solid hsl(0, 0%, 71%);
+  width: 99%;
+}
+
+.dropdown-container select:focus {
+  outline: none;
+  border-color: #FF6612;
+}
+
+.Dashboard-home-faqs-section{
+  margin: 20px;
+}
+.Dashboard-home-faqs-section input{
+  padding: 15px;
+  padding-left: 30px;
+  /* padding-right: 530px; */
+  border: 2px solid hsl(0, 1%, 63%);
+  margin: 15px 0;
+  border-radius: 30px;
+  width: 92%;
+}
+.Dashboard-home-faqs-section textarea{
+  border: 2px solid hsl(0, 1%, 63%);
+  border-radius: 20px;
+  padding: 20px;
+}
+.Dashboard-home-faqs-section textarea:focus{
+  outline: none;
+  border-color: #FF6612;
+}
+.Dashboard-home-faqs-section input:focus{
+  outline: none;
+  border-color: #FF6612;
+}
+.dashboard-publish-btn{
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: #FF6612;
+  border: none;
+  float: right;
+  margin: 10px;
+}
+.dashboard-publish-btn:active{
+  background-color: hsl(21, 85%, 61%);
+}

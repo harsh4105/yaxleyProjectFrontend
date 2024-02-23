@@ -1,0 +1,28 @@
+.sidebar {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 16%);
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+.section {
+    padding: 10px;
+}
+.section p{
+    font-size: 14px;
+}
+
+.section:hover {
+    background-color: #dedee1;
+}
+
+.sidebar-links{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar-links:hover{
+    color: #ff6f00;
+}

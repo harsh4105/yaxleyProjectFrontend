@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top:0;
+    top: 0;
     background-color: white;
     z-index: 2;
 }
@@ -20,7 +20,7 @@
 }
 
 .navbar-links {
-    font-family:Georgia;
+    font-family: Georgia;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,21 +37,99 @@ li {
 }
 
 .nav-link {
-    color:#FF6612;
+    color: #FF6612;
     text-decoration: none;
     font-size: 16px;
 }
-.btn-type{
-    background-color:#FF6612;
+
+.btn-type {
+    background-color: #FF6612;
     border-radius: 25px;
     color: aliceblue;
     padding: 10px 20px;
 }
-.btn-type:hover{
-    background-color:hsl(21, 70%, 73%);
+
+.btn-type:hover {
+    background-color: hsl(21, 70%, 73%);
     color: aliceblue;
 }
+
 .nav-link:hover {
     color: hsl(20, 97%, 50%);
     text-decoration: underline;
+}
+
+.list-bar-section {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-bar-section span {
+    height: 3px;
+    background-color: black;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.navbar-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+}
+.navbar-toggle span {
+    color: #FF6612;
+    font-weight: bold;
+}
+
+.navbar-toggle-icon {
+    font-size: 1.5rem;
+}
+
+@media (max-width:1150px) {
+    .navbar-logo img {
+        width: 160px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:1000px) {
+    .navbar {
+        min-height: 30px;
+    }
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 7px;
+    }
+    .navbar-links {
+        flex-direction: column;
+        display: none;
+        margin: auto;
+    }
+
+    .navbar-links li {
+        margin: 20px 0;
+    }
+
+    .navbar-logo img {
+        position: fixed;
+        top: 20px;
+        left: 40px;
+    }
+    .navbar-toggle {
+        align-self: flex-end;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        flex-direction: column;
+    }
 }

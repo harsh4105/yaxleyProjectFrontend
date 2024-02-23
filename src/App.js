@@ -9,22 +9,25 @@ import ContactUs from "./pages/ContactUs";
 import Events from "./pages/Events";
 import USAPage from "./pages/UsaCountry";
 import TestPrep from './pages/TestPrep';
+import Dashboard from './components/Dashboard/DashboardMain/DashboardMain';
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-         <Route path="/" element={<HomePage />} />
-         <Route path="/services" element={<Services />} />
-         <Route path="/countryInfo" element={<CountryInfo />} />
-         <Route path="/contactus" element={<ContactUs />} />
-         <Route path="/testprep" element={<TestPrep />} />
-         <Route path="/events" element={<Events />} />
-         <Route path="/usacountry" element={<USAPage />} />
-      </Routes>
-      <Footer />
-   </BrowserRouter>
+    <Dashboard/>
+  //   <BrowserRouter>
+  //     <Navbar />
+  //     <Routes>
+  //        <Route path="/" element={<HomePage />} />
+  //        <Route path="/services" element={<Services />} />
+  //        <Route path="/countryInfo" element={<CountryInfo />} />
+  //        <Route path="/contactus" element={<ContactUs />} />
+  //        <Route path="/testprep" element={<TestPrep />} />
+  //        <Route path="/events" element={<Events />} />
+  //        <Route path="/usacountry" element={<USAPage />} />
+  //     </Routes>
+  //     <Footer />
+  //  </BrowserRouter>
   );
 }
 

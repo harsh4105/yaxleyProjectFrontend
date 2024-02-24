@@ -71,13 +71,14 @@ const DashboardTestPrep = () => {
     const fetchData = async () => {
         const response = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardTestPrep');
         const result = await response.json();
-        console.log(result)
+        console.log("this is data "+result)
         setData(result);
     };
-
+    
     const fetchData2 = async () => {
         const response2 = await fetch('https://yaxley-global-project-new-backend.vercel.app/faqsdashboardTestPrep');
         const result2 = await response2.json();
+        console.log("this is data2 "+result2)
         setData2(result2);
     };
     return (

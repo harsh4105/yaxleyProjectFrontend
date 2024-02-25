@@ -12,7 +12,7 @@ const DashboardServices = () => {
   });
 
   const fetchData = async () => {
-    const response = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardServices');
+    const response = await fetch('http://localhost:4000/dashboardServices');
     const result = await response.json();
     setData(result);
   };

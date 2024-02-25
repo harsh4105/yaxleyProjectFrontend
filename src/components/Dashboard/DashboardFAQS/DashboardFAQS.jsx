@@ -38,42 +38,42 @@ const DashboardFAQS = (props) => {
         
         let publish;
         if(props.for==='home'){
-            publish = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardHome', {
+            publish = await fetch('http://localhost:4000/dashboardHome', {
                 method: 'post',
                 body: JSON.stringify({ selectedState, inputValue, textAreaValue }),
                 headers: { 'Content-Type': 'application/json' },
             })
         }
         else if(props.for==='contactus'){
-            publish = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardContactUs', {
+            publish = await fetch('http://localhost:4000/dashboardContactUs', {
                 method: 'post',
                 body: JSON.stringify({ selectedState, inputValue, textAreaValue }),
                 headers: { 'Content-Type': 'application/json' },
             })
         }
         else if(props.for==='CountryInfo'){
-            publish = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardCountryInfoFaqs', {
+            publish = await fetch('http://localhost:4000/dashboardCountryInfoFaqs', {
                 method: 'post',
                 body: JSON.stringify({ selectedState, inputValue, textAreaValue }),
                 headers: { 'Content-Type': 'application/json' },
             })
         }
         else if(props.for==='Events'){
-            publish = await fetch('https://yaxley-global-project-new-backend.vercel.app/faqsdashboardEvents', {
+            publish = await fetch('http://localhost:4000/faqsdashboardEvents', {
                 method: 'post',
                 body: JSON.stringify({ selectedState, inputValue, textAreaValue }),
                 headers: { 'Content-Type': 'application/json' },
             })
         }
         else if(props.for==='TestPrep'){
-            publish = await fetch('https://yaxley-global-project-new-backend.vercel.app/faqsdashboardTestPrep', {
+            publish = await fetch('http://localhost:4000/faqsdashboardTestPrep', {
                 method: 'post',
                 body: JSON.stringify({ selectedState, inputValue, textAreaValue }),
                 headers: { 'Content-Type': 'application/json' },
             })
         }
         else{
-            publish = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardServices', {
+            publish = await fetch('http://localhost:4000/dashboardServices', {
                 method: 'post',
                 body: JSON.stringify({ selectedState, inputValue, textAreaValue }),
                 headers: { 'Content-Type': 'application/json' },

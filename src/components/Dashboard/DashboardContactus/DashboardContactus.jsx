@@ -12,7 +12,7 @@ const DashboardContactus = () => {
   });
 
   const fetchData = async () => {
-    const response = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardContactUs');
+    const response = await fetch('http://localhost:4000/dashboardContactUs');
     const result = await response.json();
     setData(result);
   };

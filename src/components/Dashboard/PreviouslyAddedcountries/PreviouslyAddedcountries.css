@@ -1,31 +1,20 @@
-.data-block {
+ .data-block {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgb(248, 216, 198);
     padding: 20px;
-    margin: 25px 0;
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 25px 20px;
     border-radius: 20px;
+}
+.content{
+    padding: 20px;
+    width: 80%;
 }
 .country-heading{
     color: #FF6612;
     font-size: 22px;
 }
-p{
-    font-size: 18px;
-    font-weight: bold;
-}
-span{
-    font-size: 18px;
-    font-weight: 400;
-}
-.content {
-    margin-left: 20px;
-}
-
-ul {
-    list-style-type: none;
+h4{
+    margin-top: 10px;
 }

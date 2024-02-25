@@ -44,12 +44,12 @@ const DashboardCountryInfo = () => {
 
 
   const fetchData = async () => {
-    const response = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardCountryInfo');
+    const response = await fetch('http://localhost:4000/dashboardCountryInfo');
     const result = await response.json();
     setData(result);
   };
   const fetchData2 = async () => {;
-    const response2 = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardCountryInfoFaqs');
+    const response2 = await fetch('http://localhost:4000/dashboardCountryInfoFaqs');
     const result2 = await response2.json();
     setData2(result2);
   };
@@ -88,7 +88,7 @@ const DashboardCountryInfo = () => {
     formData.append('pu4', pu4);
 
     try {
-      const res = await axios.post('https://yaxley-global-project-new-backend.vercel.app/dashboardCountryInfo', formData, {
+      const res = await axios.post('http://localhost:4000/dashboardCountryInfo', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
@@ -105,6 +105,7 @@ const DashboardCountryInfo = () => {
       <div className='Dashboard-sidebar-section'>
         <DashboardSidebar />
       </div>
+
       <div className='Dashboard-contant-section'>
         <div className="Dashboard-home-heading">
           <h2>Country Info</h2>
@@ -181,7 +182,6 @@ const DashboardCountryInfo = () => {
 
         <h3 className='previously-added'>Previously added Countries</h3>
         {
-          data.length===0?
           data.map((item) =>
             <PreviouslyAddedcountries
             country={item.country}
@@ -208,13 +208,12 @@ const DashboardCountryInfo = () => {
             pu3={item.pu3}
             pu4={item.pu4} 
             />
-          ):''
+          )
         }
 
         <DashboardFAQS heading='CountryInfo' for='CountryInfo' />
         <h3 className='previously-added'>Previously added FAQ questions</h3>
         {
-          data.length===0?
           data2.map((item) =>
             <PreviousQueAndAns
               heading={item.selectedState}
@@ -223,7 +222,7 @@ const DashboardCountryInfo = () => {
               answer={item.textAreaValue}
               answerDescription="It is maintained by Facebook and a community of individual developers and companies."
             />
-          ):''
+          )
         }
       </div>
     </div>

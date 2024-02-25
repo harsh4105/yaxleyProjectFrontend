@@ -80,7 +80,7 @@ const DashboardEvents = () => {
         formData.append('images', images[3]);
 
         try {
-            const res = await axios.post('https://yaxley-global-project-new-backend.vercel.app/dashboardEvents', formData, {
+            const res = await axios.post('http://localhost:4000/dashboardEvents', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
@@ -92,13 +92,13 @@ const DashboardEvents = () => {
     };
 
     const fetchData = async () => {
-        const response = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardEvents');
+        const response = await fetch('http://localhost:4000/dashboardEvents');
         const result = await response.json();
         setData(result);
     };
 
     const fetchData2 = async () => {
-        const response2 = await fetch('https://yaxley-global-project-new-backend.vercel.app/faqsdashboardEvents');
+        const response2 = await fetch('http://localhost:4000/faqsdashboardEvents');
         const result2 = await response2.json();
         setData2(result2);
     };
@@ -156,8 +156,8 @@ const DashboardEvents = () => {
                             placeholder="Event Heading"
                         />
                         <select value={webAndEvent} onChange={(e) => setWebAndEvent(e.target.value)}>
-                            <option value="webinar">Webinar</option>
-                            <option value="events">Events</option>
+                            <option value="Webinar">Webinar</option>
+                            <option value="Event">Events</option>
                         </select>
                         <input className='date-input'
                             type="date" value={date}

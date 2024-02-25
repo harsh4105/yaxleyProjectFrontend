@@ -6,36 +6,32 @@ const PreviouslyAddedcountries = ({country, description, subHeading, p1, p2, p3,
         <div className="data-block">
             <div className="content">
                 <h3 className='country-heading'>Country : <span>{country}</span></h3>
-                <p>Description: <span>{description}</span></p>
-                <p>Sub Heading: <span>{subHeading}</span></p>
+                <h4>Description: </h4><span>{description}</span>
+                <h4>Sub Heading: </h4><span>{subHeading}</span>
                 <ul>
                     <li><span>{p1}</span></li>
                     <li><span>{p2}</span></li>
                     <li><span>{p3}</span></li>
                     <li><span>{p4}</span></li>
                 </ul>
-                <p>Average Course Fee :</p><span>{avgCourseFee}</span>
-                <p>Part-time :</p><span> {partTime}</span>
-                <p>Average Living Expense: </p><span>{avgLivingExpense}</span>
-                <p>Dependents Allowed:</p> <span>{dependentsAllowed}</span>
-                <p>Language Requirements:</p> <span>{languageRequirements}</span>
-                <p>Post Study Works: </p><span>{postStudyWorks}</span>
-                <p>Financial Requirements: </p><span>{financialRequirements}</span>
-                <p>English Language Waiver: </p><span>{englishLanguageWaiver}</span>
+                <h4>Average Course Fee :</h4><span>{avgCourseFee}</span>
+                <h4>Part-time :</h4><span> {partTime}</span>
+                <h4>Average Living Expense: </h4><span>{avgLivingExpense}</span>
+                <h4>Dependents Allowed:</h4> <span>{dependentsAllowed}</span>
+                <h4>Language Requirements:</h4> <span>{languageRequirements}</span>
+                <h4>Post Study Works: </h4><span>{postStudyWorks}</span>
+                <h4>Financial Requirements: </h4><span>{financialRequirements}</span>
+                <h4>English Language Waiver: </h4><span>{englishLanguageWaiver}</span>
                 <h4>Link Tittle</h4>
-                <ul>
-                    <li><span>{lt1}</span></li>
-                    <li><span>{lt2}</span></li>
-                    <li><span>{lt3}</span></li>
-                    <li><span>{lt4}</span></li>
-                </ul>
+                    <p>{lt1}</p>
+                    <p>{lt2}</p>
+                    <p>{lt3}</p>
+                    <p>{lt4}</p>
                 <h4>Paste Url</h4>
-                <ul>
-                    <li><span>{pu1}</span></li>
-                    <li><span>{pu2}</span></li>
-                    <li><span>{pu3}</span></li>
-                    <li><span>{pu4}</span></li>
-                </ul>
+                    <p>{pu1}</p>
+                    <p>{pu2}</p>
+                    <p>{pu3}</p>
+                    <p>{pu4}</p>
             </div>
         </div>
     );

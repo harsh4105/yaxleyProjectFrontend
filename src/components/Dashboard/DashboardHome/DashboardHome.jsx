@@ -13,7 +13,7 @@ const DashboardHome = () => {
   });  
   
   const fetchData = async () => {
-    const response = await fetch('https://yaxley-global-project-new-backend.vercel.app/dashboardHome');
+    const response = await fetch('http://localhost:4000/dashboardHome');
     const result = await response.json();
     setData(result);
   };

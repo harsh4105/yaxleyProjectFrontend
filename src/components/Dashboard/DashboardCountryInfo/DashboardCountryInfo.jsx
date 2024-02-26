@@ -109,7 +109,7 @@ const DashboardCountryInfo = () => {
       <div className='Dashboard-contant-section'>
         <div className="Dashboard-home-heading">
           <h2>Country Info</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adip</p> */}
         </div>
         <div className='destination-add-country-heading-section'>
           <h3>Destination Countries</h3>

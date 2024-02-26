@@ -111,7 +111,7 @@ const DashboardEvents = () => {
 
                 <div className="Dashboard-Events-heading">
                     <h2>Country Info</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adip</p> */}
                 </div>
                 <form onSubmit={handleSubmit}>
 

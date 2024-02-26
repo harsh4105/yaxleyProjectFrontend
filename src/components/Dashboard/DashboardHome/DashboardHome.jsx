@@ -26,7 +26,7 @@ const DashboardHome = () => {
         <div className='Dashboard-contant-section'>
         <div className="Dashboard-home-heading">
           <h2>Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adip</p> */}
         </div>
           <DashboardFAQS heading='Home Page' for='home' />
           <h3 className='previously-added'>Previously added FAQ questions</h3>

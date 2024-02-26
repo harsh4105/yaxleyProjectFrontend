@@ -25,7 +25,7 @@ const DashboardContactus = () => {
       <div className='Dashboard-contant-section'>
         <div className="Dashboard-home-heading">
           <h2>Contact Us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adip</p> */}
         </div>
         <DashboardFAQS heading='Contact Us' for='contactus' />
         <h3 className='previously-added'>Previously added FAQ questions</h3>

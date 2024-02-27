@@ -14,20 +14,19 @@ import Dashboard from './components/Dashboard/DashboardMain/DashboardMain';
 
 function App() {
   return (
-    <Dashboard/>
-  //   <BrowserRouter>
-  //     <Navbar />
-  //     <Routes>
-  //        <Route path="/" element={<HomePage />} />
-  //        <Route path="/services" element={<Services />} />
-  //        <Route path="/countryInfo" element={<CountryInfo />} />
-  //        <Route path="/contactus" element={<ContactUs />} />
-  //        <Route path="/testprep" element={<TestPrep />} />
-  //        <Route path="/events" element={<Events />} />
-  //        <Route path="/usacountry" element={<USAPage />} />
-  //     </Routes>
-  //     <Footer />
-  //  </BrowserRouter>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+         <Route path="/" element={<HomePage />} />
+         <Route path="/services" element={<Services />} />
+         <Route path="/countryInfo" element={<CountryInfo />} />
+         <Route path="/contactus" element={<ContactUs />} />
+         <Route path="/testprep" element={<TestPrep />} />
+         <Route path="/events" element={<Events />} />
+         <Route path="/usacountry" element={<USAPage />} />
+      </Routes>
+      <Footer />
+   </BrowserRouter>
   );
 }
 

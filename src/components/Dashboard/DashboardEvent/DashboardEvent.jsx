@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import DashboardSidebar from '../DashboardSidebar/DashboardSidebar';
-import CountryInfoForCountryImg from '../../images/CountryInfoForCountryImg.png';
+import CountryInfoForCountryImg from '../images/CountryInfoForCountryImg.png';
 import './DashboardEvent.css';
 import PreviousQueAndAns from '../DashboardPreviousQueAndAns/DashboardPreviousQueAndAns';
 import axios from 'axios';

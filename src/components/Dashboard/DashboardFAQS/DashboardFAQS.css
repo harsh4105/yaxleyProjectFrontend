@@ -51,24 +51,27 @@ label {
 .Dashboard-home-faqs-section input{
   padding: 15px;
   padding-left: 30px;
-  /* padding-right: 530px; */
   border: 2px solid hsl(0, 1%, 63%);
   margin: 15px 0;
   border-radius: 30px;
   width: 92%;
+  /* border-color: #FF6612; */
 }
 .Dashboard-home-faqs-section textarea{
   border: 2px solid hsl(0, 1%, 63%);
   border-radius: 20px;
   padding: 20px;
+  /* border-color: #FF6612; */
 }
 .Dashboard-home-faqs-section textarea:focus{
   outline: none;
   border-color: #FF6612;
+  box-shadow: 0 0 5px hsl(21, 89%, 70%);
 }
 .Dashboard-home-faqs-section input:focus{
   outline: none;
   border-color: #FF6612;
+  box-shadow: 0 0 5px hsl(21, 89%, 70%);
 }
 .dashboard-publish-btn{
   padding: 10px 20px;
@@ -82,3 +85,45 @@ label {
 .dashboard-publish-btn:active{
   background-color: hsl(21, 85%, 61%);
 }
+
+/* CSS for Dropdown Menu */
+.dropdown-container {
+  
+}
+
+.dropdown-container select {
+  appearance: none; /* Remove default arrow */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 99%;
+  border-color: hsl(0, 0%, 71%);
+}
+
+/* Style when dropdown is open */
+.dropdown-container select:focus {
+  outline: none;
+  border-color: #FF6612; /* Change border color when focused */
+  box-shadow: 0 0 5px hsl(21, 89%, 70%); /* Add shadow when focused */
+}
+
+/* Style for dropdown options */
+.dropdown-container select option {
+  padding: 30px 20px;
+}
+
+/* Style for dropdown container */
+.dropdown-container:before {
+  content: '\25BC';
+  position: relative;
+  left: 690px;
+  top: 30px;
+  color:#FF6612;
+}
+
+/* Style for dropdown container on hover */
+/* .dropdown-container:hover:before {
+  color: #333; /* Change arrow color on hover */
+/* } */ 

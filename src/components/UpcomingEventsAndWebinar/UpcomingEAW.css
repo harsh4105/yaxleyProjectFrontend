@@ -1,36 +1,59 @@
-.upcoming-for-event{
+.upcoming-for-event {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 50px 0;
 }
-.upcoming-section-headings img{
-    height: 100px;
-    margin: 20px;
-}
-.upcoming-section-context img{
-    margin: 20px;
-    height: 350px;
+
+.upcoming-section-headings h1 {
+    font-size: 50px;
 }
 
-.upcoming-section-context{
+.upcoming-section-headings p {
+    font-size: 20px;
+}
+
+.upcoming-section-context {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
- }
-.upcoming-section-context button{
+    width: 70%;
+    background: linear-gradient(180deg, #FFFBF6 0%, #FFF8EF 100%);
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.first-upcoming-section-img img {
+    width: 250px;
+}
+
+.first-upcoming-section-context {
+    padding: 20px;
+}
+
+.first-upcoming-section-context-points {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+}
+
+.first-upcoming-section-context-points img {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 25px;
+}
+
+.upcoming-section-context button {
     border: none;
     border-radius: 20px;
     padding: 7px 15px;
-    position: relative;
-    bottom: 90px;
-    right: 50px;
     background-color: #FF6612;
-    color:  white;
+    color: white;
+    margin: 10px;
 }
-.upcoming-section-context button:hover{
-    background-color: hsl(21, 93%, 67%);
 
- }
+.upcoming-section-context button:hover {
+    background-color: hsl(21, 93%, 67%);
+}

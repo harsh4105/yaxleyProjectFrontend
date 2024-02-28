@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FaqsAccordion.css';
 
-const FaqsAccordion = () => {
+const FaqsAccordion = (prop) => {
     const [activeIndex, setActiveIndex] = useState(null);
 
     const handleToggle = (index) => {

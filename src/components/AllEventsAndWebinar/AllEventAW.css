@@ -5,7 +5,14 @@
     align-items: center;
     padding: 50px 0;
 }
-
+.upcoming-section-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 20px;
+}
 .upcoming-webinar-section-context{
     display: flex;
     justify-content:center;

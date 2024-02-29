@@ -4,15 +4,33 @@ import AllEventAW from '../components/AllEventsAndWebinar/AllEventAW';
 import UpcomingEAW from '../components/UpcomingEventsAndWebinar/UpcomingEAW'
 import Faqs from '../components/Faqs/Faqs';
 const Events = () => {
-    return(
-      <div>
-        <HeroForEvent/>
-        <UpcomingEAW/>
-        <AllEventAW/>
-        <Faqs/>
-      </div>
-    )
-    
+  useEffect(() => {
+    fectchData();
+  })
+  const [data, setData] = useState([]);
+
+  const fectchData = async () => {
+    try {
+      const response = await fetch('http://localhost:4000/dashboardEvents');
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      console.log(data);
+      setData(data);
+    } catch (error) {
+      console.error('Fetch error:', error);
+    }
+  }
+  return (
+    <div>
+      <HeroForEvent />
+      <UpcomingEAW />
+      <AllEventAW />
+      <Faqs />
+    </div>
+  )
+
 };
 
 export default Events;

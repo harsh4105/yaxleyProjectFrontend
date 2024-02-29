@@ -12,19 +12,37 @@ import Poland from '../components/Poland/Poland';
 import Faqs from '../components/Faqs/Faqs';
 
 const CountryInfo = () => {
+  useEffect(() => {
+    fectchData();
+  })
+  const [data, setData] = useState([]);
+
+  const fectchData = async () => {
+    try {
+      const response = await fetch('http://localhost:4000/dashboardCountryInfo');
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      console.log(data);
+      setData(data);
+    } catch (error) {
+      console.error('Fetch error:', error);
+    }
+  }
   return (
     <div>
-       <CountryInfoHeroForService/>
-       <Usa/>
-       <UnitedKingdom/>
-       <Canada/>
-       <Australia/>
-       <NewzeLand/>
-       <Singapore/>
-       <Ireland/>
-       <France/>
-       <Poland/>
-       <Faqs/>
+      <CountryInfoHeroForService />
+      <Usa />
+      <UnitedKingdom />
+      <Canada />
+      <Australia />
+      <NewzeLand />
+      <Singapore />
+      <Ireland />
+      <France />
+      <Poland />
+      <Faqs />
     </div>
   );
 };

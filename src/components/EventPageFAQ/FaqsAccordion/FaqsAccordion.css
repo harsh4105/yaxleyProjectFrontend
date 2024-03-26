@@ -1,0 +1,35 @@
+.accordion-section {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.accordion-header {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion-header h2 {
+    font-size: 22px;
+}
+
+.arrow {
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    color: orange;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.arrow.open {
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+.accordion-content {
+    padding: 0 10px;
+}
+.accordion-content p {
+    font-size: 15px;
+    font-weight: 500;
+}

@@ -1,0 +1,83 @@
+.faqs-section{
+    padding: 50px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.faqs-section h1{
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.faqs-section p{
+   font-weight: bold;
+}
+.faqs-left-right-section{
+    display: flex;
+    margin-top: 40px;
+}
+.faqs-left{
+    margin-right: 200px;
+}
+.faqs-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.faqs-links li{
+    margin-bottom: 20px;
+    color: hsl(21, 100%, 50%);
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.faqs-links li:hover{
+    background-color: hwb(21 65% 2%);
+}
+.faqs-choice{
+    display: flex;
+    margin-bottom: 20px;
+}
+.faqs-choice h3{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.faqs-choice button{
+    margin-top: 20px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: hsl(21, 100%, 50%);
+    position: absolute;
+    right: 50px;
+}
+.faqs-choice:hover{
+    color: hwb(21 49% 2%);
+}
+.faqs-choice-special button{
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: hsl(21, 100%, 50%);
+    position: absolute;
+    right: 50px;
+    margin-top: 20px;
+}
+.faqs-choice-special{
+    margin-bottom: 20px;
+}
+.faqs-choice-special:hover{
+    color: hsl(21, 100%, 50%);
+}
+.faqs-choice-special h3{
+    display: flex;
+    font-size: 20px;
+}

@@ -5,17 +5,17 @@ import IELTS_Modules from "../components/IELTS_Modules/IELTS_Modules";
 import WeGotYouCovered from "../components/WeGotYouCovered/WeGotYouCovered";
 import BatchesForYou from "../components/BatchesForYou/BactchesForYou";
 import OurExpertsInYourSupports from "../components/OurExpertsInYourSupports/OurExpertsInYourSupports";
-import Faqs from '../components/Faqs/Faqs'
 import Carousel from "../components/Carousel/Carousel";
+import Faqs from "../components/TestPageFAQ/Faqs/Faqs";
 const TestPrep = () => {
     useEffect(()=>{
         fectchData();
-    })
+    },[])
     const [data,setData]=useState([]);
     
     const fectchData = async () => {
         try {
-            const response = await fetch('http://localhost:4000/dashboardTestPrep');
+            const response = await fetch('http://13.127.109.224:4000/dashboardTestPrep');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

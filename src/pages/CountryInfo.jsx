@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CountryInfoHeroForService from '../components/HeroSection/HeroForCountryInfo';
 import Usa from '../components/Usa/Usa';
 import UnitedKingdom from '../components/UnitedKingdom/UnitedKingdom';
@@ -9,17 +9,18 @@ import Singapore from '../components/Singapore/Singapore';
 import Ireland from '../components/Ireland/Ireland';
 import France from '../components/France/France';
 import Poland from '../components/Poland/Poland';
-import Faqs from '../components/Faqs/Faqs';
+import Faqs from '../components/CountryPageFAQ/Faqs/Faqs';
+
 
 const CountryInfo = () => {
   useEffect(() => {
     fectchData();
-  })
+  }, [])
   const [data, setData] = useState([]);
 
   const fectchData = async () => {
     try {
-      const response = await fetch('http://localhost:4000/dashboardCountryInfo');
+      const response = await fetch('http://13.127.109.224:4000/dashboardCountryInfo');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

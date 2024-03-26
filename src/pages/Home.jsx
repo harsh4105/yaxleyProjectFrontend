@@ -5,23 +5,21 @@ import Service_for_Home from '../components/Service_for_home/Service_for_home';
 import CountryInfo from '../components/CountryInfo/Country';
 import CourseSearch from '../components/CourseSearch/CourseSearch';
 import Events from '../components/Events/Events';
-import Faqs from '../components/Faqs/Faqs';
 import Carousel from '../components/Carousel/Carousel';
-import FaqsAccordion from '../components/FaqsAccordion/FaqsAccordion';
-
+import Faqs from '../components/HomePageFAQ/Faqs/Faqs';
 
 const HomePage = () => {
   return (
     <div>
-        <Hero/>
-        <Difference/>
-        <Service_for_Home/>
-        <CountryInfo/>
-        <CourseSearch/>
-        <Events/>
-        <Carousel/>
-        <Faqs/>
-        {/* <FaqsAccordion/> */}
+      <Hero />
+      <Difference />
+      <Service_for_Home />
+      <CountryInfo />
+      <CourseSearch />
+      <Events />
+      <Carousel />
+      <Faqs />
+      {/* <FaqsAccordion/> */}
     </div>
   );
 };
